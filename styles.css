@@ -1,0 +1,585 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+.logo img {
+    width: 100px; /* Adjust the width of your profile image */
+    border-radius: 50%; /* Optional: Make it circular */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+/* Introduction section styles */
+#introduction {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 80px 0;
+}
+
+#introduction h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#introduction img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#introduction p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Responsive styling for the introduction section */
+@media (max-width: 768px) {
+    #introduction img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
+/* Header styles */
+header {
+    background-image: url('design5'); /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header-content h1 {
+    font-size: 2.5em;
+}
+
+.header-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+
+
+
+/* Section styles */
+.section {
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    margin-bottom: 16px;
+    padding: 10px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* About Me section styles */
+#about {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+/* Style for the skills list */
+#about .skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#about .skills-list li {
+    margin: 0 15px;
+}
+
+/* Style for the "Download Resume" button */
+#about .download-resume-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#about .download-resume-button:hover {
+    background-color: #555;
+}
+/* Education section styles */
+#education {
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+    padding: 80px 0;
+}
+
+#education h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Style for the education timeline */
+.timeline {
+    list-style: none;
+    padding: 0;
+    margin: 40px 0;
+}
+
+.timeline-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.timeline-item .date {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.timeline-item .details {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.timeline-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.timeline-item p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Responsive styling for the education timeline */
+@media (max-width: 768px) {
+    .timeline {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .timeline-item {
+        text-align: left;
+        max-width: 500px;
+        margin: 0 auto 30px;
+    }
+
+    .timeline-item .details {
+        margin-left: 0;
+    }
+}
+/* Skills section styles */
+#skills {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    padding: 80px 0;
+}
+
+#skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Style for the skills list */
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.skills-list li {
+    margin: 0 15px;
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.skills-list li:hover{
+    background-color: #999;
+}
+
+.skills-list li span {
+    font-weight: bold;
+}
+
+/* Responsive styling for the skills list */
+@media (max-width: 768px) {
+    .skills-list {
+        flex-wrap: wrap;
+    }
+
+    .skills-list li {
+        margin-bottom: 15px;
+    }
+}
+/* Projects section styles */
+#projects {
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+    padding: 80px 0;
+}
+
+#projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Style for the projects grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+/* Style for each project card */
+.project-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+
+.project-card .project-info {
+    padding: 20px;
+}
+
+.project-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Responsive styling for the projects grid */
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* Certifications section styles */
+#certifications {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    padding: 80px 0;
+}
+
+#certifications h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Style for the certifications grid */
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+/* Style for each certification card */
+.certification-card {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.certification-card:hover {
+    transform: scale(1.05);
+}
+
+.certification-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+
+.certification-card .certification-info {
+    padding: 20px;
+}
+
+.certification-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.certification-card p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Responsive styling for the certifications grid */
+@media (max-width: 768px) {
+    .certifications-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* Extracurricular Activities section styles */
+#activities {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    padding: 80px 0;
+}
+
+#activities h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Style for the activity cards */
+.activity-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Style for each activity card */
+.activity-card {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.activity-card:hover {
+    transform: scale(1.05);
+}
+
+.activity-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+
+.activity-card .activity-info {
+    padding: 20px;
+}
+
+.activity-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.activity-card p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Responsive styling for the activity cards */
+@media (max-width: 768px) {
+    .activity-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activity-card {
+        max-width: 400px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+/* Contact section styles */
+#contact {
+
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Style for the contact information container */
+.contact-info-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Style for each contact information item */
+.contact-info-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contact-info-item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.contact-info-item p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+/* Responsive styling for the contact information */
+@media (max-width: 768px) {
+    .contact-info-container {
+        text-align: left;
+    }
+
+    .contact-info-item {
+        justify-content: flex-start;
+    }
+}
+/* Footer section styles */
+#footer {
+    background-color: #0c0c0c;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#footer p {
+    margin: 0;
+}
+
+/* Style for the social media icons */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #bbb;
+}
+
+
+
