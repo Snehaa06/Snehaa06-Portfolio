@@ -2,7 +2,6 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 /* Navbar styles */
@@ -15,7 +14,6 @@ nav {
     padding: 15px 0px;
     position: fixed;
     width: 100;
-    z-index: 1000;
 }
 navbar h1 {
     margin: 0;
